@@ -6,7 +6,7 @@ const userRouter = require("./routes/users")
 
 // Express Routes
 app.use('/users', userRouter);
-app.use('fruits', fruitRouter);
+app.use('/fruits', fruitRouter);
 
 app.listen(port, () => {
     console.log(`App listening on port ${port}`)
