@@ -1,5 +1,6 @@
 const express = require("express")
 const router = express.Router()
+const {check, validationResult} = require("express-validator");
 
 // List of Fruits
 let fruits = [
